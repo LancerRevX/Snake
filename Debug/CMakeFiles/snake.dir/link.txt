@@ -1,0 +1,1 @@
+/usr/bin/gcc -g   CMakeFiles/snake.dir/main.c.o CMakeFiles/snake.dir/snake.c.o CMakeFiles/snake.dir/sdl.c.o  -o snake  -lm -lSDL2 -lSDL2main -lSDL2_image 

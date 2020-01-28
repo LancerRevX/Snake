@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adan/projects/snake/main.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+sdl.h
+/home/adan/projects/snake/sdl.h
+snake.h
+/home/adan/projects/snake/snake.h
+
+/home/adan/projects/snake/sdl.h
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+
+/home/adan/projects/snake/snake.h
+stdbool.h
+-
+sdl.h
+/home/adan/projects/snake/sdl.h
+
